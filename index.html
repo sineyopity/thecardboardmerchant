@@ -1,1 +1,261 @@
-Under Construction
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Cardboard Merchant | Buying Pokémon & Magic Collections</title>
+  <meta name="description" content="The Cardboard Merchant buys and consigns Pokémon, Magic: The Gathering, and trading card collections. Cash offers, sealed product, singles, and local collection purchases." />
+
+  <style>
+    :root {
+      --red: #b91c1c;
+      --dark: #1f2933;
+      --muted: #5f6b7a;
+      --light: #f7f7f5;
+      --card: #ffffff;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--dark);
+      background: var(--light);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--red);
+      color: white;
+      padding: 56px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2.2rem, 6vw, 4.5rem);
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+    header p {
+      margin: 0 auto;
+      max-width: 760px;
+      font-size: clamp(1.15rem, 3vw, 1.6rem);
+      font-weight: 600;
+    }
+
+    .cta {
+      margin-top: 28px;
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 700;
+      background: white;
+      color: var(--red);
+      border: 2px solid white;
+    }
+
+    .button.secondary {
+      background: transparent;
+      color: white;
+    }
+
+    main {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 36px 20px 64px;
+    }
+
+    section {
+      margin-bottom: 28px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+
+    h2 {
+      font-size: 2rem;
+      line-height: 1.15;
+      margin: 0 0 14px;
+    }
+
+    h3 {
+      margin-top: 0;
+      color: var(--red);
+      font-size: 1.25rem;
+    }
+
+    ul {
+      padding-left: 22px;
+      margin-bottom: 0;
+    }
+
+    .highlight {
+      background: #fff7ed;
+      border-left: 6px solid var(--red);
+      padding: 22px;
+      border-radius: 10px;
+    }
+
+    .contact {
+      text-align: center;
+      background: var(--dark);
+      color: white;
+      border-radius: 14px;
+      padding: 34px 20px;
+    }
+
+    .contact a {
+      color: white;
+      font-weight: 700;
+    }
+
+    .contact .big {
+      display: block;
+      font-size: clamp(1.6rem, 5vw, 2.6rem);
+      text-decoration: none;
+      margin: 10px 0;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+      padding: 28px 20px;
+    }
+
+    @media (max-width: 760px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      header {
+        padding: 42px 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>The Cardboard Merchant</h1>
+    <p>Buying Pokémon, Magic: The Gathering, and trading card collections in the local area.</p>
+
+    <div class="cta">
+      <a class="button" href="tel:4259419835">Call or Text: 425-941-9835</a>
+      <a class="button secondary" href="mailto:buy@thecardboardmerchant.com">Email Us</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="highlight">
+      <h2>Have cards or sealed product sitting around?</h2>
+      <p>
+        The Cardboard Merchant helps collectors, former players, parents, and families turn trading card collections into cash without dealing with listings, shipping, pricing research, or endless marketplace messages.
+      </p>
+      <p>
+        Send a few photos, tell us what you have, and we can usually give you a quick next step.
+      </p>
+    </section>
+
+    <section>
+      <h2>What We Buy</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Pokémon</h3>
+          <p>Sealed boxes, booster packs, binders, singles, slabs, collections, and older childhood collections.</p>
+        </div>
+
+        <div class="card">
+          <h3>Magic: The Gathering</h3>
+          <p>Sealed booster boxes, Commander decks, binders, singles, old collections, bulk rares, and full collection purchases.</p>
+        </div>
+
+        <div class="card">
+          <h3>Other TCGs</h3>
+          <p>We may also consider Lorcana, Flesh and Blood, Yu-Gi-Oh!, sports cards, and other collectible card products.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Why Sell to Us?</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Less Hassle</h3>
+          <p>No need to inventory every card, create listings, negotiate with dozens of buyers, or ship orders one at a time.</p>
+        </div>
+
+        <div class="card">
+          <h3>Fair Evaluation</h3>
+          <p>We look at current market value, condition, liquidity, sealed product demand, and how easy the items are to move.</p>
+        </div>
+
+        <div class="card">
+          <h3>Cash or Consignment</h3>
+          <p>Some sellers want fast cash. Others want to wait for stronger pricing. We can discuss both options depending on the collection.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>How It Works</h2>
+      <div class="card">
+        <ul>
+          <li>Text or email photos of what you have.</li>
+          <li>Include any details you know: game, year, sealed product, condition, quantity, or estimated value.</li>
+          <li>We review the collection and ask follow-up questions if needed.</li>
+          <li>If it looks like a fit, we can discuss a cash offer, consignment option, or local meetup.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Good Photos Help</h2>
+      <div class="card">
+        <p>
+          You do not need a full inventory to reach out. Clear photos of boxes, binders, sealed products, stacks, labels, and higher-value cards are enough to start.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Ready to sell or get an estimate?</h2>
+      <p>Call, text, or email with photos of your collection.</p>
+
+      <a class="big" href="tel:4259419835">425-941-9835</a>
+      <a class="big" href="mailto:buy@thecardboardmerchant.com">buy@thecardboardmerchant.com</a>
+
+      <p>Local purchases and collection reviews available by appointment.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 The Cardboard Merchant. Pokémon, Magic: The Gathering, and other names are trademarks of their respective owners. The Cardboard Merchant is not affiliated with or endorsed by them.</p>
+  </footer>
+</body>
+</html>
